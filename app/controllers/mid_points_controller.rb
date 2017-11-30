@@ -1,0 +1,2 @@
+class MidPointsController < ApplicationController
+end
