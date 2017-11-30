@@ -1,3 +1,3 @@
 class Option < ApplicationRecord
-  belongs_to :midpoint
+  belongs_to :mid_point
 end
