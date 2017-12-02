@@ -9,6 +9,10 @@ end
 gem 'rack-cors'
 gem 'httparty'
 gem 'rails', '~> 5.1.4'
+gem 'http'
+gem 'json'
+gem 'require_all'
+gem 'i18n'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server

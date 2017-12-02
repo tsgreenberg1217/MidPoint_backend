@@ -1,13 +1,14 @@
-
+# require_relative './API.rb'
 
 class AdaptersController < ApplicationController
 
   def index
-    byebug
+    # byebug
   end
 
   def create
-    byebug
+    search = Search.new(params[:lat], params[:lng])
+    render json: search.results
   end
 
 end
