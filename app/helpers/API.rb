@@ -9,7 +9,7 @@ TOKEN_PATH = "/oauth2/token"
 GRANT_TYPE = "client_credentials"
 
 
-SEARCH_LIMIT = 50
+SEARCH_LIMIT = 5
 
 
 
