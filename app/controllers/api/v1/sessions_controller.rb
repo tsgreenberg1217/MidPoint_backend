@@ -1,5 +1,5 @@
 class Api::V1::SessionsController < ApplicationController
-  before_action :authorized, only: [:show]
+  before_action :authorized
 
   def show
     render json: {
