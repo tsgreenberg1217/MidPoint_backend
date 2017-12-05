@@ -1,4 +1,4 @@
-class Api::V1::SessionsController <  ActionController::API
+class Api::V1::SessionsController < ApplicationController
   skip_before_action :authorized, only: [:create]
 
   def show
@@ -9,6 +9,7 @@ class Api::V1::SessionsController <  ActionController::API
   end
 
   def create
+    
     user = User.find_by(username: params[:username])
     if user && user.authenticate(params[:password])
       payload = {user_id: user.id}
