@@ -1,9 +1,8 @@
 class ApplicationController < ActionController::API
   include ActionController::HttpAuthentication::Token::ControllerMethods
-  before_action :authorized
+  # before_action :authorized
 
-
-  def issue_token(payload)
+def issue_token(payload)
   JWT.encode(payload, "supersecretcode")
 end
 
