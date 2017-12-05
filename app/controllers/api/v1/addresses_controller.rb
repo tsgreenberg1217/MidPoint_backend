@@ -7,8 +7,8 @@ class Api::V1::AddressesController <  ActionController::API
 
 
   def create
-    nick = User.find(1)
-    nick.addresses.create(directions: params[:address], lat: params[:lat], lng: params[:lng])
+    user = User.find(1)
+    user.addresses.create(directions: params[:address], lat: params[:lat], lng: params[:lng])
     render json: Address.all
   end
 end
