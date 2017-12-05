@@ -10,6 +10,7 @@ gem 'rack-cors'
 gem 'httparty'
 gem 'rails', '~> 5.1.4'
 gem 'http'
+gem "pry"
 gem 'json'
 gem 'require_all'
 gem 'i18n'
