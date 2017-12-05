@@ -3,7 +3,7 @@ class Search
   attr_accessor :term, :location, :results
   attr_reader :average_rating, :price
 
-  def initialize(lat, lng, term=nil)
+  def initialize(lat, lng, term='restaurant')
 
     @term = term
     @location = "#{lat}, #{lng}"

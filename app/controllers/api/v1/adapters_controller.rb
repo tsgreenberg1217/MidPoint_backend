@@ -1,14 +1,16 @@
+require_relative '../../../helpers/YelpAPI'
 
 class Api::V1::AdaptersController <  ActionController::API
-
+  extend YelpAPI
+  
   def index
-    # byebug
   end
 
   def create
-    byebug
-    search = Search.new(params[:lat], params[:lng])
-    render json: search.results
+    # search = Search.new(params[:lat], params[:lng])
+    location = "#{params[:lat]}, #{params[:lng]}"
+    results = YelpAPI.test(location)
+    render json: results
   end
 
 end
