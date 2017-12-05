@@ -7,7 +7,7 @@ class Search
 
     @term = term
     @location = "#{lat}, #{lng}"
-    @results = API.test(@term, @location)
+    @results = YelpAPI.test(@term, @location)
   end
 
 

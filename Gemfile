@@ -13,6 +13,8 @@ gem 'http'
 gem 'json'
 gem 'require_all'
 gem 'i18n'
+gem 'bcrypt', '~> 3.1.7', platforms: :ruby
+gem 'jwt'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server

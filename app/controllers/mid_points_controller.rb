@@ -1,2 +1,0 @@
-class MidPointsController < ApplicationController
-end

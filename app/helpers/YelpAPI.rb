@@ -1,5 +1,5 @@
 
-module API
+module YelpAPI
 CLIENT_ID = 'LvnmmaOiGVGD8KJWl3F9Jw'
 CLIENT_SECRET = 'o2npCNvvrQxpPJ33KosFKFdZ0ZnWCZQqFoPlu1k5SFtR0SOR2GpypziSXKe2XkeV'
 API_HOST = "https://api.yelp.com"

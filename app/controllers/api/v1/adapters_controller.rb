@@ -1,6 +1,6 @@
 # require_relative './API.rb'
 
-class AdaptersController < ApplicationController
+class Api::V1::AdaptersController <  ActionController::API
 
   def index
     # byebug

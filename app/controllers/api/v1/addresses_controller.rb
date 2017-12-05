@@ -1,4 +1,4 @@
-class AddressesController < ApplicationController
+class Api::V1::AddressesController <  ActionController::API
 
   def index
     @addresses = Address.all
