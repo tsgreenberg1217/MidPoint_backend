@@ -13,9 +13,9 @@ SEARCH_LIMIT = 5
 
 
 
-  def self.test(location)
+  def self.test(location, term)
       url = "#{API_HOST}#{SEARCH_PATH}"
-      params = set_params({term: 'restaurant', location: location})
+      params = set_params({term: term, location: location})
       response = HTTP.auth(bearer_token).get(url, params: params)
       response.parse
   end
