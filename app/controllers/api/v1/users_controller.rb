@@ -10,6 +10,7 @@ class Api::V1::UsersController < ActionController::API
     render json: @user.to_json
   end
 
+
   private
 
   def user_params
