@@ -18,10 +18,6 @@ Once you have gone into the folder for Midpoint, the following will download the
 ```
 
 
-## Deployment
-
-Deployment will come via paid download from our site once the first round of VC funding comes through.
-
 ## Built With
 
 * A lot of debugger and byebug
