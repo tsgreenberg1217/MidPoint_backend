@@ -1,24 +1,46 @@
-# README
+# Midpoint
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hate the dread of making decisions on where to meet up with friends? Midpoint is your one-stop to make the process equitable and easy. Tell us where your friends are coming from and what you want to do, then we'll do the rest. Our software calculates the midpoint and gives you options based off that area.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+Copy the link of repository upper right of this page (clone or download).
 
-* System dependencies
+```Git clone git@github.com:tsgreenberg1217/MidPoint_frontend.git
+```
 
-* Configuration
 
-* Database creation
+### Installing
 
-* Database initialization
+Once you have gone into the folder for Midpoint, the following will download the necessary files for our app to run.
 
-* How to run the test suite
+```npm install && npm start
+```
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Deployment
 
-* ...
+Deployment will come via paid download from our site once the first round of VC funding comes through.
+
+## Built With
+
+* A lot of debugger and byebug
+* React
+* Rails
+* Bcrypt
+* Semantic
+* Tender, loving, care
+
+
+## Authors
+
+* **Todd Greenberg** - *Initial work* - [Github](https://github.com/tsgreenberg1217)
+* **Nick Hall** - *Initial work* - [Github](https://github.com/nh83012001)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* CityYelp and the endless wisdom of Nicholas Paolino

@@ -5,6 +5,13 @@ class Api::V1::AddressesController <  ActionController::API
     render json: @addresses
   end
 
+  def show
+    byebug
+    user = User.find_by(username: params[:username])
+    addresses = user.addresses
+    render json: addresses
+  end
+
 
   def create
     user = User.find_by(username: params[:user])
