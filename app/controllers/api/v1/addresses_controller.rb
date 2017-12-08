@@ -6,7 +6,6 @@ class Api::V1::AddressesController <  ActionController::API
   end
 
   def show
-    byebug
     user = User.find_by(username: params[:username])
     addresses = user.addresses
     render json: addresses
@@ -16,7 +15,7 @@ class Api::V1::AddressesController <  ActionController::API
   def create
     user = User.find_by(username: params[:user])
     user.addresses.create(directions: params[:name], name: params[:addressType])
-    render json: user.addresses.all
+    render json: {addresses: user.addresses}
   end
 end
 
