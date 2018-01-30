@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  
   has_secure_password
   has_many :addresses
   has_many :mid_points
@@ -10,6 +11,5 @@ class User < ApplicationRecord
   def user_addresses
     self.addresses
   end
-
 
 end
