@@ -1,7 +1,5 @@
 
 module YelpAPI
-CLIENT_ID = 'LvnmmaOiGVGD8KJWl3F9Jw'
-CLIENT_SECRET = 'o2npCNvvrQxpPJ33KosFKFdZ0ZnWCZQqFoPlu1k5SFtR0SOR2GpypziSXKe2XkeV'
 API_HOST = "https://api.yelp.com"
 SEARCH_PATH = "/v3/businesses/search"
 BUSINESS_PATH = "/v3/businesses/"  # trailing / because we append the business id to the path
@@ -32,8 +30,8 @@ SEARCH_LIMIT = 20
     url = "#{API_HOST}#{TOKEN_PATH}"
 
     params = {
-      client_id: CLIENT_ID,
-      client_secret: CLIENT_SECRET,
+      client_id: ENV["yelp_id"],
+      client_secret: ENV["yelp_secret"],,
       grant_type: GRANT_TYPE
     }
 

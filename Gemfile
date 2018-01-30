@@ -7,7 +7,6 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "figaro"
-
 gem 'httparty'
 gem 'active_model_serializers'
 gem 'rack-cors'
