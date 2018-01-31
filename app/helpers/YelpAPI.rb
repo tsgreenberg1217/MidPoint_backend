@@ -31,7 +31,7 @@ SEARCH_LIMIT = 20
 
     params = {
       client_id: ENV["yelp_id"],
-      client_secret: ENV["yelp_secret"],,
+      client_secret: ENV["yelp_secret"],
       grant_type: GRANT_TYPE
     }
 
